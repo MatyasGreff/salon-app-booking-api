@@ -7,5 +7,18 @@
     "serverless-ignore": "^0.2.1",
     "serverless-python-requirements": "^5.1.0",
     "serverless-wsgi": "^1.7.6"
-  }
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatyasGreff/salon-app-booking-api.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MatyasGreff/salon-app-booking-api/issues"
+  },
+  "homepage": "https://github.com/MatyasGreff/salon-app-booking-api#readme"
 }
