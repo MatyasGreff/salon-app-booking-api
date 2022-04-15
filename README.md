@@ -18,7 +18,7 @@ Save the file and create a python virtual environment
 ```
 python3 -m venv ./venv
 ```
-Activate the environment, then from the root directory, run this command to install required python lybraries
+Activate the environment, then from the root directory, run this command to install required python libraries
 ```
 pip install -r requirements.txt
 ```
