@@ -22,7 +22,7 @@ Activate the environment, then from the root directory, run this command to inst
 ```
 pip install -r requirements.txt
 ```
-Make sure NodeJS and Serverless framweork are installed and run:
+Make sure NodeJS and Serverless framework are installed and run:
 ```
 serverless wsgi serve
 ```
