@@ -1,6 +1,6 @@
 # Salon booking api
 
-This is the repository for the booking API used in the Salon pplication.
+This is the repository for the booking API used in the Salon application.
 
 ## To run the API locally
 
