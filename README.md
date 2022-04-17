@@ -6,7 +6,7 @@ This is the repository for the booking API used in the Salon application.
 
 The API sends requests to a DynamoDB instance called S_BOOKINGS.
 In order to make the API work locally, make sure to create this instance.
-Also set up an IAM user with DunamoDB access.
+Also set up an IAM user with DynamoDB access.
 Then clone this repo and create a .env file in the root directory, fill with your details
 ```
 ACCESS_KEY_ID=
@@ -23,6 +23,10 @@ Activate the environment, then from the root directory, run this command to inst
 pip install -r requirements.txt
 ```
 Make sure NodeJS and Serverless framework are installed and run:
+```
+npm install
+```
+Then, to run the service:
 ```
 serverless wsgi serve
 ```
