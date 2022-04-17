@@ -1,6 +1,6 @@
 from flask_restful import inputs
 
-
+# These are the validators called from booking_resource.py
 def non_empty_string(s):
     if not s:
         raise ValueError("Must not be empty string")

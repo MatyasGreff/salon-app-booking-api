@@ -1,5 +1,5 @@
 from flask import jsonify
-
+# jsonify returns a json object with the application/json mimetype set                            
 
 class GlobalException:
 
@@ -20,4 +20,6 @@ class GlobalException:
 
         @app.errorhandler(422)
         def server_error(e):
-            return jsonify({'message': 'Invalid data provided'}), 422
+            return jsonify({'message': 'Invalid data provided'}), 422    
+
+# All errors are handled that could occur from CRUD calls

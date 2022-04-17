@@ -4,8 +4,8 @@ from boto3 import resource
 from dotenv import load_dotenv
 from werkzeug.exceptions import InternalServerError
 
-load_dotenv()
-
+load_dotenv() #This loads the .env file
+#DynamoDB interactions called from service.py are here
 AWS_ACCESS_KEY_ID = os.environ["ACCESS_KEY_ID"]
 AWS_SECRET_ACCESS_KEY = os.environ["SECRET_ACCESS_KEY"]
 REGION_NAME = os.environ["REGION_NAME"]

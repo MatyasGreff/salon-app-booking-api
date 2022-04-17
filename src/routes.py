@@ -8,3 +8,5 @@ def register_routes(app):
 
     api.add_resource(BookingResource, '/api/bookings')
     api.add_resource(BookingItemResource, '/api/bookings/<string:booking_id>')
+
+# Adds routes for empty and booking_id specific requests
